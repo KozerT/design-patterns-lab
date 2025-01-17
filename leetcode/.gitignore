@@ -13,3 +13,6 @@ npm-debug.log*
 # OS-specific files
 .DS_Store  # macOS
 Thumbs.db  # Windows
+
+# Editor files
+.idea/
