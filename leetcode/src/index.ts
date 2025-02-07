@@ -2,7 +2,8 @@ import { isPalindrome } from "./isPalindrome"
 import { romanToInt } from "./roman-to-int"
 import { mergeTwoLists } from "./sum-of-two"
 import { argumentsLength } from "./arguments-length"
-import { expect } from './to-be-or-not-to-be';
+import { lengthOfLastWord } from "./length-of-last-word"
+import { plusOne } from './plus-one';
 
 const roman = romanToInt("XII")
 console.log(roman)
@@ -30,4 +31,11 @@ console.log(isPalindrome(333))
 
 console.log("This is argumentsLength", argumentsLength({}, null, "3"))
 
-console.log("This is to be or not to be", expect(5).notToBe(5))
+// console.log("This is to be or not to be", expect(5).notToBe(5))
+
+console.log(
+  "This is length of last word:",
+  lengthOfLastWord("This is to be or not to be")
+)
+
+console.log("Plus one", plusOne([1, 2, 4]))
