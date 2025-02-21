@@ -4,6 +4,10 @@ import { mergeTwoLists } from "./sum-of-two"
 import { argumentsLength } from "./arguments-length"
 import { lengthOfLastWord } from "./length-of-last-word"
 import { plusOne } from './plus-one';
+import { getConcatenation } from "./concatenation-of-array"
+import { addTwoPromises } from './two-promises';
+import {numIdenticalPairs} from "./number-of-good-pairs"
+import { defangIPaddr } from './defanging-an-ip-address';
 
 const roman = romanToInt("XII")
 console.log(roman)
@@ -29,13 +33,23 @@ const nodes = mergeTwoLists(item1, item4)
 
 console.log(isPalindrome(333))
 
-console.log("This is argumentsLength", argumentsLength({}, null, "3"))
+// console.log("This is argumentsLength", argumentsLength({}, null, "3"))
 
 // console.log("This is to be or not to be", expect(5).notToBe(5))
 
-console.log(
-  "This is length of last word:",
-  lengthOfLastWord("This is to be or not to be")
-)
+// console.log(
+//   "This is length of last word:",
+//   lengthOfLastWord("This is to be or not to be")
+// )
 
-console.log("Plus one", plusOne([1, 2, 4]))
+// console.log("Plus one", plusOne([1, 2, 4]))
+
+
+// console.log("This is concatenation of array", getConcatenation([1,3,2,1]))
+
+// console.log("Two promises", addTwoPromises(Promise.resolve(2), Promise.resolve(2))
+//     .then(console.log))
+
+console.log('Number of good pairs', numIdenticalPairs ([1,2,3,1,1,3]))
+
+console.log("Defacing IP address", defangIPaddr('1.1.1.1'))
