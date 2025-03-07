@@ -8,6 +8,8 @@ import { getConcatenation } from "./concatenation-of-array"
 import { addTwoPromises } from './two-promises';
 import {numIdenticalPairs} from "./number-of-good-pairs"
 import { defangIPaddr } from './defanging-an-ip-address';
+import {climbStairs} from './climbing-stairs'
+import { tribonacci } from './tribonacci';
 
 const roman = romanToInt("XII")
 console.log(roman)
@@ -50,6 +52,10 @@ console.log(isPalindrome(333))
 // console.log("Two promises", addTwoPromises(Promise.resolve(2), Promise.resolve(2))
 //     .then(console.log))
 
-console.log('Number of good pairs', numIdenticalPairs ([1,2,3,1,1,3]))
+// console.log('Number of good pairs', numIdenticalPairs ([1,2,3,1,1,3]))
 
-console.log("Defacing IP address", defangIPaddr('1.1.1.1'))
+// console.log("Defacing IP address", defangIPaddr('1.1.1.1'))
+
+console.log("Climbing stairs", climbStairs(4))
+
+console.log("Tribonacci", tribonacci(25));
