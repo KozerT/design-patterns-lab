@@ -9,6 +9,7 @@ import { addTwoPromises } from './two-promises';
 import {numIdenticalPairs} from "./number-of-good-pairs"
 import { defangIPaddr } from './defanging-an-ip-address';
 import {climbStairs} from './climbing-stairs'
+import { merge } from './merge-sorted-array';
 
 const roman = romanToInt("XII")
 console.log(roman)
@@ -32,7 +33,7 @@ const item4 = new ListNode(1, item5)
 
 const nodes = mergeTwoLists(item1, item4)
 
-console.log(isPalindrome(333))
+//console.log(isPalindrome(333))
 
 // console.log("This is argumentsLength", argumentsLength({}, null, "3"))
 
@@ -55,4 +56,8 @@ console.log(isPalindrome(333))
 
 // console.log("Defacing IP address", defangIPaddr('1.1.1.1'))
 
-console.log("Climbing stairs", climbStairs(4))
+//console.log("Climbing stairs", climbStairs(4))
+
+//console.log("Tribonacci", tribonacci(25));
+
+console.log("Merge sorted arrays", merge([1,2,3,0,0,0], 3, [2,5,6], 3))
