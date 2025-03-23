@@ -1,15 +1,6 @@
-import { isPalindrome } from "./isPalindrome"
+import { convertTemperature } from "./convert-the-temperature"
 import { romanToInt } from "./roman-to-int"
 import { mergeTwoLists } from "./sum-of-two"
-import { argumentsLength } from "./arguments-length"
-import { lengthOfLastWord } from "./length-of-last-word"
-import { plusOne } from './plus-one';
-import { getConcatenation } from "./concatenation-of-array"
-import { addTwoPromises } from './two-promises';
-import {numIdenticalPairs} from "./number-of-good-pairs"
-import { defangIPaddr } from './defanging-an-ip-address';
-import {climbStairs} from './climbing-stairs'
-import { merge } from './merge-sorted-array';
 
 const roman = romanToInt("XII")
 console.log(roman)
@@ -60,4 +51,8 @@ const nodes = mergeTwoLists(item1, item4)
 
 //console.log("Tribonacci", tribonacci(25));
 
-console.log("Merge sorted arrays", merge([1,2,3,0,0,0], 3, [2,5,6], 3))
+// console.log("Merge sorted arrays", merge([1,2,3,0,0,0], 3, [2,5,6], 3))
+
+
+console.log('This is convertTemperature',convertTemperature(36.50));
+ 
